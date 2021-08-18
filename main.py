@@ -1,7 +1,6 @@
 import sys
-from dscord import bot, wake
+from dscord import bot
 
-wake.up()
 bot.load('system')
 bot.run(sys.argv[1])
 
