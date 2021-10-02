@@ -1,2 +1,2 @@
-# dockcord
-One of the Docker Discord bot.
+# hosting
+A study app/bot hosting in case I ever forgot it
