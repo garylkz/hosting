@@ -1,0 +1,6 @@
+{
+    "name": "Dscord Bot Sample",
+    "description": "A minimal Discord bot using Dscord",
+    "repository": "https://github.com/thisgary/dscord",
+    "keywords": ["python", "discord", "dscord", "bot"]
+}
