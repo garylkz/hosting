@@ -1,9 +1,8 @@
 name: Docker
 
 on:
-  push:
-    paths:
-      - 'Docker'
+  release:
+    types: [ published ]
     branches: [ main ]
 
 env:
@@ -24,9 +23,6 @@ jobs:
 
       - name: Log into registry
         run: echo ${{ secrets.GH_TOKEN }} | docker login ghcr.io -u thisgary --password-stdin
-      
-      - name: Move to /Docker directory
-        run: cd Docker
 
       - name: Build Docker image
         run: docker build -t ${{ env.IMAGE_NAME }}:${{ env.VERSION }} -t ${{ env.IMAGE_NAME }}:latest .
