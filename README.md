@@ -3,8 +3,10 @@ A study of app/bot hosting in case I ever forgot it
 
 ## Docker
 
-    docker pull ghcr.io/thisgary/hosting:latest
-    docker run hosting
+```console
+docker pull ghcr.io/thisgary/hosting:latest
+docker run hosting
+```
 
 Relevant files: `Dockerfile`, `main.py`
 
