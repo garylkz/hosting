@@ -1,4 +1,3 @@
-# Hosting
 A study of app/bot hosting in case I ever forgot it
 
 ## Docker
